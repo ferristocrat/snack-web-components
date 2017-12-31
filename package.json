@@ -1,0 +1,56 @@
+{
+    "name": "snack-web-components",
+    "version": "1.0.4",
+    "description": "useful helpers, styles, etc",
+    "main": "lib/snack-web-components.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "build": "webpack --env build",
+        "dev": "webpack --progress --colors --watch --env dev",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/snackpass/snack-web-components.git"
+    },
+    "keywords": [
+        "snackpass"
+    ],
+    "author": "Not Just Snacks Inc.",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/snackpass/snack-web-components/issues"
+    },
+    "homepage": "https://github.com/snackpass/snack-web-components#readme",
+    "dependencies": {
+        "moment": "^2.19.2",
+        "react-dom": "^16.2.0",
+        "react-modal": "^3.1.10",
+        "react-select": "^1.1.0",
+        "react-toggle-button": "^2.2.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.0.2",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-transform-flow-strip-types": "^6.22.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-es2017": "^6.24.1",
+        "babel-preset-latest": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^0.28.7",
+        "eslint": "^4.11.0",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-loader": "^1.9.0",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.2",
+        "eslint-plugin-react": "^7.5.1",
+        "react": "^16.1.1",
+        "style-loader": "^0.19.0",
+        "webpack": "^3.8.1"
+    }
+}
