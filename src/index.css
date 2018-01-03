@@ -26,7 +26,7 @@ textarea {
     transition: background-color 0.2s ease 0s;
 }
 
-touchable-highlight {
+.touchable-highlight {
     cursor: pointer;
     user-select: none;
     -webkit-transition: all 100ms ease;

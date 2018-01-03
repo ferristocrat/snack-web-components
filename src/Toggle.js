@@ -8,12 +8,12 @@ export default class Toggle extends Component {
         const { value } = this.props;
         return (
             <ToggleButton
-                {...this.props}
                 colors={{
                     active: {
                         base: colors.green
                     }
                 }}
+                {...this.props}
                 value={value || false}
                 onToggle={value => {
                     this.props.onToggle(!value);
