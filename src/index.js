@@ -10,9 +10,10 @@ import View from "./View.js";
 import Dropdown from "./Dropdown.js";
 import TouchableHighlight from "./TouchableHighlight.js";
 import Modal from "./Modal";
+import Grid from "./Grid";
 import styles from "./styles";
 
-var Module = {
+module.exports = {
     Button: Button,
     Image: Image,
     Text: Text,
@@ -23,8 +24,8 @@ var Module = {
     Toggle: Toggle,
     Dropdown: Dropdown,
     Modal: Modal,
+    Grid: Grid,
     styles: styles
 };
-module.exports = Module;
 
 // https://www.npmjs.com/package/npm-package-es6-boilerplate

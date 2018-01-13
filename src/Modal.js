@@ -14,7 +14,7 @@ export default class ModalComponent extends Component {
                 onRequestClose={() => {}}
                 contentLabel="Modal"
             >
-                // <p>test</p>
+                {this.props.children}
             </Modal>
         );
     }
