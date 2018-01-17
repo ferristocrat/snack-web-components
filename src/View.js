@@ -11,6 +11,7 @@ export default class View extends Component {
                 style={{
                     display: "flex",
                     alignItems: "center",
+                    alignSelf: "stretch",
                     backgroundColor: backgroundColor || "",
                     flexDirection: row ? "row" : "column",
                     ...this.props.style
