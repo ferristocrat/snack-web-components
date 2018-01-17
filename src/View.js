@@ -10,7 +10,7 @@ export default class View extends Component {
                 onClick={this.props.onPress}
                 style={{
                     display: "flex",
-                    alignItems: "center",
+                    // alignItems: "center",
                     alignSelf: "stretch",
                     backgroundColor: backgroundColor || "",
                     flexDirection: row ? "row" : "column",
