@@ -16,7 +16,9 @@ export default class Toggle extends Component {
                 {...this.props}
                 value={value || false}
                 onToggle={value => {
-                    this.props.onToggle(!value);
+                    try {
+                        this.props.onToggle(!value);
+                    } catch (err) {}
                 }}
             />
         );
