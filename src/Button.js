@@ -5,23 +5,19 @@ export default class Button extends Component {
     render() {
         const { labelColor, backgroundColor } = this.props;
         return (
-            <button
-                onClick={this.props.onPress}
-                style={{
-                    backgroundColor: backgroundColor || colors.blue,
-                    color: labelColor || "white",
-                    ...this.props.style
-                }}
-            >
-                {/* <Text
+            <div>
+
+                <button
+                    onClick={this.props.onPress}
                     style={{
-                        fontSize: 14,
-                        color: labelColor || "white"
+                        backgroundColor: backgroundColor || colors.blue,
+                        color: labelColor || "white",
+                        ...this.props.style
                     }}
-                > */}
-                {this.props.label}
-                {/* </Text> */}
-            </button>
+                >
+                    {this.props.label}
+                </button>
+            </div>
         );
     }
 }

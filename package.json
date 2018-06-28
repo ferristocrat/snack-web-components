@@ -1,5 +1,5 @@
 {
-    "name": "snack-web-components",
+    "name": "@snackpass/snack-web-components",
     "version": "1.0.4",
     "description": "useful helpers, styles, etc",
     "main": "lib/snack-web-components.js",
